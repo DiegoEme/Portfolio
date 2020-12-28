@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Hotjar Tracking Code for https://diegodev.ml/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2032572, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fas fa-laptop-code"></i>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--introduccion-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hola, soy <strong>Diego Eme</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Desarrollador Web
+      </p>
+      <img src="diegodev2.png" alt="diego" class="intro__img" />
+    </section>
+    <!--Servicios-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Qué uso</h2>
+      <div class="services">
+        <div class="service">
+          <h2>HTML</h2>
+          <h2>CSS</h2>
+          <h2>JAVASCRIPT</h2>
+          <p></p>
+        </div>
+
+        <div class="service">
+          <h2>LINUX</h2>
+          <h2>GIT</h2>
+          <h2>GITHUB</h2>
+          <p></p>
+        </div>
+
+        <div class="service">
+          <h2>SASS</h2>
+          <h2>FIREBASE</h2>
+          <h2>FIGMA</h2>
+          <p></p>
+        </div>
+      </div>
+      <a href="#work" class="btn">Mi trabajo</a>
+    </section>
+
+    <!--About me-->
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Quién soy</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Desarrollador Web en Bogota
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Ingeniero Mecánico egresado de la Universidad Nacional de Colombia.
+          Apasionado por la tecnología. Me gusta diseñar, construir interfaces y
+          programar. Actualmente cursando el bootcamp de desarrollo Full Stack
+          en Bogota Institute of technology.
+        </p>
+        <p></p>
+      </div>
+
+      <img src="aboutme2.jpg" alt="bus" class="about-me__img" />
+    </section>
+
+    <!--My Work-->
+
+    <section class="my-work" id="work">
+      <h2 class="section__title">Mis proyectos</h2>
+      <p class="section__subtitle"></p>
+      <div class="portfolio">
+        <!--Portfolio item 1-->
+
+        <a href="https://invalids.ml/" class="portfolio__item" target="_blank">
+          <img src="invalids.png" alt="" class="portfolio__img" />
+          <div class="middle"><h3>Página web banda de rock</h3></div>
+        </a>
+        
+
+        <!--Portfolio item 2-->
+
+        <a
+          href="https://battleship-24b70.web.app/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="battle.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!--Portfolio item 3-->
+
+        <a
+          href="https://copa-3ea40.web.app/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="copa.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!--Portfolio item 4-->
+
+        <a
+          href="https://diegoeme.github.io/guess-who/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="guess.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <a href="mail:to soterg.uhdeia@gmail.com" class="footer__link"
+        >soterg.uhdeia@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/diegoeme/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/DiegoEme"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="portafolio.js"></script>
+  </body>
+</html>
