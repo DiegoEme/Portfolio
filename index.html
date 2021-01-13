@@ -19,7 +19,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio</title>
+    <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -62,55 +62,52 @@
     <!--introduccion-->
     <section class="intro" id="home">
       <h1 class="section__title section__title--intro">
-        Hola, soy <strong>Diego Eme</strong>
+        Hi, I'm <strong>Diego Eme</strong>
       </h1>
       <p class="section__subtitle section__subtitle--intro">
-        Desarrollador Web
+        Full Stack Developer
       </p>
       <img src="diegodev2.png" alt="diego" class="intro__img" />
     </section>
     <!--Servicios-->
     <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">Qué uso</h2>
+      <h2 class="section__title section__title--services">What I use</h2>
       <div class="services">
         <div class="service">
-          <h2>HTML</h2>
-          <h2>CSS</h2>
+          <h2>ANGULAR</h2>
+          <h2>VUE JS</h2>
           <h2>JAVASCRIPT</h2>
           <p></p>
         </div>
 
         <div class="service">
-          <h2>LINUX</h2>
-          <h2>GIT</h2>
-          <h2>GITHUB</h2>
+          <h2>MONGO </h2>
+          <h2>EXPRESS</h2>
+          <h2>NODE JS</h2>
           <p></p>
         </div>
 
         <div class="service">
-          <h2>SASS</h2>
-          <h2>FIREBASE</h2>
           <h2>FIGMA</h2>
+          <h2>FIREBASE</h2>
+          <h2>MATERIAL</h2>
           <p></p>
         </div>
       </div>
-      <a href="#work" class="btn">Mi trabajo</a>
+      <a href="#work" class="btn">My Work</a>
     </section>
 
     <!--About me-->
 
     <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">Quién soy</h2>
+      <h2 class="section__title section__title--about">Who I am</h2>
       <p class="section__subtitle section__subtitle--about">
-        Desarrollador Web en Bogota
+        Web developer based out of Bogota
       </p>
 
       <div class="about-me__body">
         <p>
-          Ingeniero Mecánico egresado de la Universidad Nacional de Colombia.
-          Apasionado por la tecnología. Me gusta diseñar, construir interfaces y
-          programar. Actualmente cursando el bootcamp de desarrollo Full Stack
-          en Bogota Institute of technology.
+          Mechanical Engineer graduated from the National University of Colombia. Passionate about technology. I like to design, build interfaces and program. I attended the Full Stack development bootcamp at Bogota Institute of technology.
         </p>
         <p></p>
       </div>
@@ -121,10 +118,86 @@
     <!--My Work-->
 
     <section class="my-work" id="work">
-      <h2 class="section__title">Mis proyectos</h2>
+      <h2 class="section__title">My projects</h2>
       <p class="section__subtitle"></p>
-      <div class="portfolio">
-        <!--Portfolio item 1-->
+
+      <div id="grid">
+        <!--Carta -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img class="imagen" src="slow.png" alt="slow project" />
+            </div>
+            <div class="flip-card-back">
+              <p>Full Stack Web app built with</p>
+              <li><i class="fab fa-angular"></i> Angular</li>
+              <li><i class="fab fa-node-js"></i> NodeJS</li>
+              <li><i class="fas fa-database"></i> MongoDB</li>
+              <li><i class="fab fa-node-js"></i> Express</li>
+              <p></p>
+              <a href="https://www.youtube.com/watch?v=gT5QA6FZrmc" class="btn">Demo</a>
+              <a href="https://github.com/DiegoEme/slow-frontend" class="btn">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img class="imagen" src="confusion.png" alt="confusion project" />
+            </div>
+            <div class="flip-card-back">
+              <p>Full Stack Web app built with</p>
+              <li><i class="fab fa-angular"></i> Angular</li>
+              <li><i class="fab fa-node-js"></i> NodeJS</li>
+              <li><i class="fas fa-database"></i> MongoDB</li>
+              <li><i class="fab fa-node-js"></i> Express</li>
+              <p></p>
+              <a href="https://www.youtube.com/watch?v=w0zFu9aXMmE" class="btn">Demo</a>
+              <a href="https://github.com/DiegoEme/ConFusion-Angular" class="btn">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img class="imagen" src="vue.png" alt="vue project" />
+            </div>
+            <div class="flip-card-back">
+              <p>Full Stack Web app built with</p>
+              <li><i class="fab fa-vuejs"></i> Vue JS</li>
+              <li><i class="fab fa-node-js"></i> NodeJS</li>
+              <li><i class="fas fa-database"></i> MySql</li>
+              <li><i class="fab fa-node-js"></i> Express</li>
+              <p></p>
+              <a href="https://www.youtube.com/watch?v=md1vSH1qXPU" class="btn">Demo</a>
+              <a href="https://github.com/DiegoEme/Packaging-store-front" class="btn">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img class="imagen" src="windows.png" alt="windows" />
+            </div>
+            <div class="flip-card-back">
+              <p>Website built with</p>
+              <li><i class="fab fa-js-square"></i> Javascript</li>
+              <li><i class="fab fa-css3"></i> CSS</li>
+              <li><i class="fab fa-html5"></i> HTML</li>
+             
+              <p></p>
+              <a href="https://www.youtube.com/watch?v=tWTrB-gCXu0" class="btn">Demo</a>
+              <a href="https://github.com/DiegoEme/Windows95" class="btn">Code</a>
+            </div>
+          </div>
+        </div>
+
+        
+      <!-- <div class="portfolio">
+       
 
         <a href="https://invalids.ml/" class="portfolio__item" target="_blank">
           <img src="invalids.png" alt="" class="portfolio__img" />
@@ -132,7 +205,7 @@
         </a>
         
 
-        <!--Portfolio item 2-->
+        
 
         <a
           href="https://battleship-24b70.web.app/"
@@ -142,7 +215,7 @@
           <img src="battle.png" alt="" class="portfolio__img" />
         </a>
 
-        <!--Portfolio item 3-->
+        
 
         <a
           href="https://copa-3ea40.web.app/"
@@ -152,7 +225,7 @@
           <img src="copa.png" alt="" class="portfolio__img" />
         </a>
 
-        <!--Portfolio item 4-->
+     
 
         <a
           href="https://diegoeme.github.io/guess-who/"
@@ -161,7 +234,7 @@
         >
           <img src="guess.jpg" alt="" class="portfolio__img" />
         </a>
-      </div>
+      </div> -->
     </section>
 
     <!--Footer-->
